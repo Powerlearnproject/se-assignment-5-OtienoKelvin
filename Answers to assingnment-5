@@ -1,0 +1,191 @@
+1. Installation of VS Code:
+
+Visit the official website for visual studio code by typing 'code.visualstudio.com' on your browser. Click on Download for windows Stable Build ![Image](image.png)
+
+When download is done in a few minutes depending on your internet speed, locate the downloaded file in your file explorer and double click it to begin installation.
+
+After the Installer opens, it will ask you to accept the terms and conditions of the Visual Studio Code. Click on I accept the agreement and then click the Next button.![image](image-1.png)
+
+Choose the location data for running the Visual Studio Code. It will then ask you to browse the location. Then click on the Next button.![image](image-2.png)
+Click on the install button next and wait for about a minute for the visual studio code to install on your device. 
+
+
+2. Fist-time setup
+
+The best way of exploring VS Code hands-on is to open the Welcome page and then pick a Walkthrough for a self-guided tour through the setup steps, features, and deeper customizations that VS Code offers. As you discover and learn, the walkthroughs track your progress. 
+
+Ensure Vs Code is added on your path in Environment variables as this will enable you you open Vs Code from a command line by simply typing 'code .'
+
+Install extension that suits you for your inteded project. Extensions like Python,JavaScript, TypeScript, JSON, HTML, CSS, SCSS, are some of the most popular one very essential for a developer and therefore should be installed.
+
+IntelliSense is a general term for various code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as "code completion", "content assist", and "code hinting."
+
+
+3. User Interface Overview.
+
+ Visual Studio Code is a code editor and like many other code editors, VS Code adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
+
+ Vs Code user interface is devided into five main areas. that is: Editor group, Primary side bar, Status bar, Activity bar and Panel. ![user interface](image-3.png)
+
+    - Activity bar.
+ Located on the far left-hand side. Lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled. 
+
+    - Side bar.
+Vs Code has a Primary side bar and a Secondary side bar.
+Primary Side Bar Contains different views like the Explorer to assist you while working on your project while on the other hand Secondary Side Bar displays views opposite the Primary Side Bar. You can show it with Ctrl+Alt+B and drag a view from the Primary Side Bar to the Secondary Side Bar.
+
+    - Editor Groups.
+This is the main area to edit your files. You can open as many editors as you like side by side vertically and horizontally using the Split Editor or Open to the Side commands.
+
+    - Status bar.
+Located on the lower left side of the Vs Code it shows information about the opened project and the files you edit. 
+
+
+4. Command Palette.
+
+This is where all commands in Vs Code are found. From here, you have access to all functionality within VS Code, including keyboard shortcuts for the most common operations.
+It can be accessed by pressing Ctrl+Shift+P 
+
+Some of the common tasks that can be performed by command palette include: 
+    Ctrl+P enables you to navigate to any file or symbol by typing its name
+    Ctrl+Tab cycles you through the last set of files opened
+    Ctrl+Shift+P brings you directly to the editor commands
+    Ctrl+Shift+O enables you to navigate to a specific symbol in a file
+    Ctrl+G enables you to navigate to a specific line in a file
+
+
+5. Extensions in Vs Code.
+
+VS Code extensions let you add languages, debuggers, and tools to your installation to support your development workflow. Some other roles are:
+
+Syntax Highlighting - Extensions provide syntax highlighting for various programming languages, making the code more readable and easier to navigate.
+
+Code Autocompletion - Language-specific extensions offer intelligent code completion, helping developers write code faster and with fewer errors.
+
+Linting - Extensions can analyze code for potential errors and provide warnings or suggestions for improvement.
+
+Debugging - Extensions enable debugging capabilities for different programming languages, allowing developers to set breakpoints, inspect variables, and control execution flow.
+
+Some essential Visual Studio Code (VS Code) extensions for web development:
+            - CSS Peek
+            - JavaScript (ES6) Code Snippets
+            - Auto Close Tag
+            - REST Clien
+            - ESLint
+
+
+6. Integrated Terminal.
+
+The integrated terminal in VS Code allows you to execute command-line tasks directly within the editor environment, enhancing your workflow and productivity. 
+
+Integrated terminal can open a terminal as follows:
+
+    - From the menu, use the Terminal > New Terminal or View > Terminal menu commands.
+
+    - From the Command Palette (Ctrl+Shift+P), use the View: Toggle Terminal command.
+
+    - In the Explorer, you can use the Open in Integrated Terminal context menu command to open a new terminal from a folder.
+
+    - To toggle the terminal panel, use the Ctrl+` keyboard shortcut.
+
+    - To create a new terminal, use the Ctrl+Shift+` keyboard shortcut.
+
+    Advantages of integrated terminal:
+
+    - The integrated terminal supports various shells, such as Bash, PowerShell, and Command Prompt, allowing developers to use their preferred shell environment.
+
+    -  Errors and logs from running applications or build processes can be viewed directly in the terminal, making it easier to diagnose and fix issues.
+
+    - Terminal color themes can be customized to match the editor's appearance, creating a cohesive and visually pleasing work environment.
+
+    - The terminal can be easily opened with a keyboard shortcut or through the command palette, providing quick access to the command line when needed.
+
+
+7. File and folder management.
+
+Creating Folders and Files.
+
+Click the New Folder button in the Explorer view (the sidebar on the left).
+Right-click in the Explorer view and choose New Folder.
+Click the New File icon in the Explorer view (left sidebar).
+
+Opening Files:
+Use the Quick Open feature: - 
+Press (Windows/Linux: Ctrl+P) to open any file by its name.
+
+Alternatively, explore the Explorer view to navigate between files when exploring a project.
+
+Quickly switch between files in the current folder using: - 
+Ctrl+Tab to view a list of open files and select one.
+
+Ctrl+Alt± (navigate left) and Ctrl+Shift± (navigate right) to move between files and edit locations.
+
+Efficient Navigation:
+Breadcrumbs:
+
+The editor has a navigation bar called Breadcrumbs above its contents.
+
+Breadcrumbs show the current location (file path) and allow you to navigate between folders, files, and symbols.
+
+Customize breadcrumbs appearance using settings like breadcrumbs.filePath and breadcrumbs.symbolPath.
+Toggle breadcrumbs visibility with View > Show Breadcrumbs.
+
+8. Setting and preferences.
+
+Some of the ways to acces seting in VS Code include 
+
+Click on the gear icon in the lower-left corner of the VS Code window and select Settings.
+
+Navigate to File > Preferences > Settings.![alt text](image-4.png)
+
+Change theme - To customize the color theme, go to the Settings editor and search for “Color Theme" and choose a theme from the list of available themes.
+
+Adjust Font Size - Search for “Font Size” in the Settings editor and
+Modify the font size to your preference.
+
+Keybindings - To customize keybindings, search for “Keybindings” in the Settings editor.
+You can create your own custom keybindings or modify existing ones.
+
+
+9. Debagging in VS Code.
+
+Start by creating a debag configuration.
+
+Open the Run and Debug view by clicking the Debug icon or pressing Ctrl+Shift+D.
+Click on "create a launch.json file" link.
+
+Select the environment like Python for example and Set Breakpoints by clicking in the gutter next to the line number once you have open the file you want to debag. 
+
+Click the green play button in the Run and Debug view or press F5 to Start Debugging
+
+Some key debagging features in VS Code are
+
+    - Breakpoints:
+Set breakpoints to pause execution at specific lines.
+
+    - Watch Expressions:
+Monitor variables and expressions.
+
+    - Call Stack:
+View the call stack to understand the execution flow.
+
+    - Variable Inspection:
+Inspect variables' values during debugging.
+
+
+10. Using source control.
+
+Open VS Code and open the folder where your project resides.
+Open the Terminal in VS Code (Ctrl+`` or View > Terminal`) and run the command 'git init'
+
+After making changes to your files use the command 'git add .' to stage allyour changes for commit.
+
+Next after staging use 'git commit -m "message"' to commit your changes including the commit nessage.
+
+Create a Repository on GitHub after which go back to your terminal and run 'git remote add origin https://github.com/yourusername/your-repo-name.git' replacing 'yourusername' and 'your-repo-name' with your GitHub username and repository name, respectively.
+
+You can now push your local repository using the command 'git push -u origin main'
+
+
+
+
